@@ -1,0 +1,13 @@
+#elemento-1 a {
+    color: red;
+    font-size: 2rem;
+}
+
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
