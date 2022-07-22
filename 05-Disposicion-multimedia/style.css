@@ -1,0 +1,33 @@
+div {
+    border: 1px solid red;
+    padding: 5px;
+    margin: 5px
+}
+
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 10px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    background: red;
+}
+
+.absolute {
+    position: absolute;
+    right: 0px;
+    height: 900px;
+}
+
+
+/* Usado para controles de navegacion, el cual se fija justo cuando esta en su seccion */
+
+.sticky {
+    position: sticky;
+    background: green;
+    top: 0px;
+    z-index: 2;
+}
