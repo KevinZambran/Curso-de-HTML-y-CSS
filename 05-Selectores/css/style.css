@@ -1,0 +1,88 @@
+/* pseudoClass */
+
+
+/* para q solo afecte al primer elemento */
+
+.listado p:first-child {
+    color: aqua;
+}
+
+
+/* color del link no visitado */
+
+a:link {
+    color: red;
+}
+
+
+/* cuando el link ya esta visitado */
+
+a:visited {
+    color: coral;
+}
+
+
+/* cuando el mause pasa por encima */
+
+a:hover {
+    color: white;
+    ;
+}
+
+
+/* Cuando se lo selecciona */
+
+a:active {
+    color: gray;
+}
+
+
+/* PseudoElementos */
+
+span.frase::before {
+    content: '<< ';
+    font-size: xx-small;
+}
+
+span.frase::after {
+    content: ' >>';
+    font-size: xx-small;
+}
+
+
+/* poler la primera letra con un tamaño poderoso */
+
+.libro p::first-letter {
+    font-size: xx-large;
+}
+
+
+/* poner color solo a la primera linea */
+
+.libro p::first-line {
+    color: red;
+}
+
+
+/* especificidad */
+
+
+/* (0, 1, 0) CLASE */
+
+.clase {
+    background-color: white;
+}
+
+
+/* (1, 0, 0) ID */
+
+#clase {
+    background-color: blue;
+}
+
+
+/* (0, 0, 1) ETIQUETA */
+
+h1 {
+    background-color: red;
+}
