@@ -8,6 +8,10 @@
     color: white;
 }
 
-.button::after {
+.button::before {
+    content: "Pasa por encima"
+}
+
+.button:hover::before {
     content: "¡Hecho!";
 }
