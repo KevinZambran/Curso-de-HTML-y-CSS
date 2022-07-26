@@ -1,0 +1,20 @@
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid #0000ff72;
+    outline: none;
+    padding: 5px;
+    color: #5f5f5f;
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid #0000ff;
+}
+
+.input-moderno::placeholder {
+    color: #0000ff72;
+}
+
+.input-background {
+    background-color: aquamarine;
+    border: none;
+}
